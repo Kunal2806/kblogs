@@ -93,16 +93,15 @@ export default function Hero() {
         style={{ background: "var(--gradient-hero)" }}
       />
 
-      <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-20 lg:grid-cols-2 lg:py-32">
+      <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-15 lg:grid-cols-2">
         {/* ── Left column ── */}
         <div className="flex flex-col gap-8">
           {/* Headline */}
           <div>
             <h1
-              className="font-[var(--font-space-grotesk)] text-[clamp(2.8rem,6vw,5rem)] font-bold leading-[1.05] tracking-tight text-[var(--foreground)]"
+              className="font-[var(--font-space-grotesk)] text-[clamp(2rem,4vw,3.2rem)] font-bold leading-[1.1] tracking-tight text-[var(--foreground)]"
             >
-              Building.{" "}
-              <span className="block">Learning.</span>
+              Building. Learning.
               <span
                 className="block"
                 style={{
